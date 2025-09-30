@@ -1,0 +1,37 @@
+OLAP Demo (ROLAP, MOLAP, HOLAP)
+
+This project shows how businesses can analyze data using OLAP (Online Analytical Processing).
+It uses a small company example with employees and departments to demonstrate three types of OLAP and common operations.
+
+🔹 What’s Inside
+
+ROLAP (Relational OLAP) – uses database queries to get insights, e.g. average salary by department.
+
+MOLAP (Multidimensional OLAP) – creates a cube (like an Excel pivot table) to compare data, e.g. salary by age group and department.
+
+HOLAP (Hybrid OLAP) – mixes both methods for flexible analysis.
+
+We also demonstrate common OLAP operations:
+
+Slice – look at one department.
+
+Dice – filter data with multiple conditions.
+
+Drill-down – go into details, e.g. salary per employee.
+
+Roll-up – summarize, e.g. total salary per department.
+
+Charts and heatmaps are used to make the results easy to understand.
+
+📊 Example Data
+
+Employees: Names, ages, salaries, department IDs.
+
+Departments: Department IDs and names (HR, Engineering, Sales).
+
+🚀 How to Use
+
+Make sure Python is installed.
+
+Install the required tools (like Excel for data, but here we use free Python libraries):
+                            
